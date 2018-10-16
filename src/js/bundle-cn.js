@@ -74354,7 +74354,7 @@ jQuery(fn => { ( async function(){
 					API: (typeof web3 !== "undefined" ? web3 : false)
 				}, {
 					name: "Browser",
-					API: "https://ropsten.infura.io/v3/09c30ad18ed145c3997b0621e1816909"
+					API: "http://47.100.221.162:8555"
 				}, {
 					name: "Websocket",
 					API: new w3Constructor( new w3Constructor.providers.WebsocketProvider("wss://mainnet.infura.io/_ws"))
@@ -74364,7 +74364,7 @@ jQuery(fn => { ( async function(){
 				{
 					name: "Fomo3D",
 					model: Ethereum.Fomo3D,
-					address: "0xe9c302779a7541f9cd42217eb3c4287cdaf7ef96"
+					address: "0xe17757b34c8b6a08ac862b0d7cfd611e244f7fa7"
 				},
 					{
 					name: "Quick",

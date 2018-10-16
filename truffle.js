@@ -35,7 +35,14 @@ module.exports = {
             },
             network_id: 1
 
-        }
+        },
+        rinkeby2:{
+            host: "47.100.221.162",
+            port:8555,
+            from:"0x74ebad9b29e73237aa82c231cefdbc6a1c55d5e1",
+            gas: 7500000,
+            network_id:"*"       
+        },
     },
     solc: {
         optimizer: {
